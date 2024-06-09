@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="register.php" method="post">
+        <label for="matric">Matric:</label><br>
+        <input type="text" id="matric" name="matric"><br><br>
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="role">Role:</label><br>
+        <select id="role" name="role">
+            <option value="">Please select</option>
+            <option value="student">Student</option>
+            <option value="lecturer">Lecturer</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="login.php">Login here if you are already registered.</a>
+</body>
+</html>
